@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * EjerciciosR 
  */
-public class EjericiciosR {
+public class EjerciciosR {
 
     public static void imprimirWhile_20() {
         int numInit=21;
@@ -25,11 +25,11 @@ public class EjericiciosR {
            System.out.println(numInit);  
        } 
    }
-   public static void nombrevertical() {
+   public static void nombrehorizontal() {
        Scanner lt=new Scanner(System.in);
        System.out.println("Ingrese su nombre");
        String nombre=lt.next();
-       for (int i= 0; i< nombre.length(); i++) {
+       for (int i= nombre.length()-1; i >=0; i--) {
            System.out.println(nombre.charAt(i));
        }
        
@@ -41,7 +41,7 @@ public class EjericiciosR {
       System.out.println("Imprime Do While"); imprimirDoWhile_20();
       System.out.println("Imprime For"); imprimirForN1_20();*/
 
-      nombrevertical();
+      nombrehorizontal();
 
       
  
