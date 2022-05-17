@@ -12,7 +12,7 @@ public class Ejercicio44 {
         String continuar="S";
         //Datos de entrada y proceso
         while (continuar.equals("S")) {
-            System.out.println("Ingrese el color de Foco:\nV=Verde\nB=Blanco\nR-Rojo");
+            System.out.println("Ingrese el color de Foco:\nV=Verde\nB=Blanco\nR=Rojo");
             colorF=lt.next().toUpperCase();
             if (colorF.charAt(0)=='V') {
                 cantfocoV++;
