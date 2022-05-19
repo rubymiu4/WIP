@@ -5,8 +5,9 @@ import java.util.Scanner;
 /**
  * EjercicioVarios
  */
-public class EjercicioVarios {
+public class EjerciciosVarios {
     static Scanner leerT=new Scanner(System.in);
+    /*int : solo hasta 1 al 10 ,;long =10 a mas*/
 
     public static long factorialN(int numero) {
         long resultado=1;
@@ -27,3 +28,4 @@ public class EjercicioVarios {
         }
      }
 }
+
