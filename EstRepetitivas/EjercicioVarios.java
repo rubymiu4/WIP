@@ -20,6 +20,8 @@ public class EjercicioVarios {
         
     }
     public static void main(String[] args) {
-        System.out.println(factorialN(5));
+        System.out.println("Ingrese un numero:");
+        int num=leerT.nextInt();
+        System.out.println(factorialN(num));
      }
 }
