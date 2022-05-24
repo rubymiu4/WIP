@@ -1,4 +1,4 @@
-package Reforzamiento;
+package ReforzamientoU1;
 
 import java.util.Scanner;
 
