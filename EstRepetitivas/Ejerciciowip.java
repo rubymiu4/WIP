@@ -16,11 +16,11 @@ public class Ejerciciowip {
              for (int c = 1; c <= 2*cantF+1; c++) {
                  if (f==1 && medio==c) {
                      System.out.print("*");   
-                 }else if (c==medio-f && f>1) {
+                 }else if(c==medio-f && f>1){
                      System.out.print("*");
                  }else if(c==medio+f && f>1){
                      System.out.print("*");
-                 }else if(f==numFilLinea && c>medio+1 && c<medio+1 ){
+                 }else if(f==numFilLinea && c>=medio-f && c<=medio+f){
                      System.out.print("*");
                  }else{
                      System.out.print(" ");
